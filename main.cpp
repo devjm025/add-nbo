@@ -6,6 +6,7 @@ int printFileSize(FILE* fp){
 	int f_size = 0;	
 	
 	if(fp != NULL){
+		fseek(fp, 0, SEEK_END);
 		f_size = ftell(fp);
 	}
 	
