@@ -16,8 +16,6 @@ int printFileSize(FILE* fp){
 
 int main(int argc, char *argv[]){
 
-	char buf1[4];
-	char buf2[4];
 	int size1;
 	int size2;
 	
