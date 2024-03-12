@@ -65,8 +65,9 @@ int main(int argc, char *argv[]){
 				printf("%d(0x%x) + %d(0x%x) = %d(0x%x)", n1, n1, n2, n2, result, result);
 			}
 			
-			fclose(fp1);
-			fclose(fp2);
 		}
+		
+		fclose(fp1);
+		fclose(fp2);
 	}
 }
